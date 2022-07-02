@@ -1,4 +1,5 @@
 import styles from "../styles/Footer.module.css"
+import Link from "next/link"
 import Image from "next/image"
 const Footer = () => {
   return (
@@ -6,10 +7,10 @@ const Footer = () => {
       <div className={styles.cardL}>
         <h1 className={styles.title}>EMPRESA ABCXYZ.</h1>
         <h1 className={styles.linkTitle}>
-          <a href="/contact" passHref>
+          <Link href="/contact" passHref>
             <span className={styles.linkText}>CONTACTANOS</span>
             <Image src="/img/link.png" width="40px" height="40px" alt=""/>
-          </a>
+          </Link>
         </h1>
       </div>
       <div className={styles.cardS}>
