@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={styles.cardL}>
         <h1 className={styles.title}>EMPRESA ABCXYZ.</h1>
         <h1 className={styles.linkTitle}>
-          <Link href="/contact" passHref>
+          <Link href="/contact">
             <span className={styles.linkText}>CONTACTANOS</span>
             <Image src="/img/link.png" width="40px" height="40px" alt=""/>
           </Link>
